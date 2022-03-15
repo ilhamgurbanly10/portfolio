@@ -130,9 +130,9 @@ body.flash-is-not-loaded * {
 }	
 
 .navbar-footer {
-	position: absolute;
+	margin-top: 100%;
 	width: 96%;
-	padding: 5% 2%;
+	padding: 4rem 2%;
 	font-size: 0.8rem;
 	bottom: 0;
 	color: grey;
@@ -697,6 +697,7 @@ body.flash-is-not-loaded * {
 #my-gallery .flash-gallery-title {
 	color: white;
 	font-weight: lighter;
+	font-size: 1.5rem !important;
 }
 #my-gallery .flash-gallery-title span {
 	font-weight: lighter;
