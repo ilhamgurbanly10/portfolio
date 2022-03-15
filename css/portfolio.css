@@ -132,7 +132,7 @@ body.flash-is-not-loaded * {
 .navbar-footer {
 	position: absolute;
 	width: 96%;
-	padding: 4rem 2%;
+	padding: 2rem 2%;
 	font-size: 0.8rem;
 	bottom: 0;
 	color: grey;
@@ -140,6 +140,7 @@ body.flash-is-not-loaded * {
 .navbar-sm-list .navbar-footer {
 	position: static;
 	margin-top: 100px;
+	padding: 0;
 }	
 
 @media only screen and (max-width: 1024px) {
