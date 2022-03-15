@@ -52,7 +52,7 @@ body.flash-is-not-loaded * {
 	z-index: 2;
 }
 .navbar-sm-list {
-	width: 70%;
+	width: 60%;
 	padding: 3vh 5%;
 	height: 94vh;
 	display: none;
@@ -60,6 +60,20 @@ body.flash-is-not-loaded * {
 	background-color: rgba(0,0,0,0.7);
 	left: -100%;
 	transition: left 1s ease;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.navbar-sm-list::-webkit-scrollbar {
+  width: 10px;
+}
+.navbar-sm-list::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+}
+.navbar-sm-list::-webkit-scrollbar-thumb {
+  background: grey; 
+}
+.navbar-sm-list::-webkit-scrollbar-thumb:hover {
+  background: darkgrey; 
 }
 .navbar-sm-list.show {
 	left: 0;
@@ -90,7 +104,7 @@ body.flash-is-not-loaded * {
 	transition: all 0.5s ease;
 }
 .navbar-sm-list .navbar-btn {
-	font-size: 1.5rem;
+	font-size: 1rem;
 }
 @media (hover: hover) {
 	.navbar-btn:not(.active):hover {
@@ -550,7 +564,7 @@ body.flash-is-not-loaded * {
 	transition-duration: 2s !important;
 }
 .cod-skills-con-is-scrolled .skills-con-skill-line-6 {
-	width: calc(20% + 1px);
+	width: calc(25% + 1px);
 	transition-duration: 2s !important;
 }
 .cod-skills-con-is-scrolled .skills-con-skill-procent-6 {
@@ -588,6 +602,10 @@ body.flash-is-not-loaded * {
 		width: 90%;
 		margin-left: auto;
 		margin-right: auto;
+	}
+	.skills-con-skill-procent {
+		padding: 0.4rem;	
+		font-size: 0.5rem;
 	}
 
 }
@@ -750,8 +768,8 @@ body.flash-is-not-loaded * {
 }
 .loading-ani-circle {
 	align-self: center;
-	width: 50px;
-	height: 50px;
+	width: 30px;
+	height: 30px;
 	border-radius: 50%;
 	background-color: #3deaa4;
 	animation-name: circle;
@@ -762,11 +780,21 @@ body.flash-is-not-loaded * {
   	animation-delay: 0s;
 }
 .loading-ani-circle:not(:first-child) {
-	margin-left: 3rem;
+	margin-left: 2rem;
 }
 .loading-ani.stop .loading-ani-circle {
 	animation: none;
 }
+@media only screen and (max-width: 800px) {
+	.loading-ani-circle {
+		align-self: center;
+		width: 20px;
+		height: 20px;
+	}
+	.loading-ani-circle:not(:first-child) {
+		margin-left: 1rem;
+	}
+}	
 /* the-end-of-loading-animation */
 
 
