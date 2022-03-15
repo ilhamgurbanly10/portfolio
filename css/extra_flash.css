@@ -799,7 +799,7 @@
 	position: fixed;
 	z-index: 1;
 	bottom: -100%;
-	right: 2vw;
+	right: 2rem;
 	background-color: #3deaa4;
 	color: #000000;
 	transition-property: visibility, opacity, background-color, bottom;
@@ -814,7 +814,7 @@
 	/*border-radius: 0.5vw;*/
 }
 .flash-fixed-back-to-top-button.flash-fixed-back-to-top-button-is-scrolled {
-	bottom: 4vw;
+	bottom: 3rem;
 	visibility: visible;
 	opacity: 1;
 }	
