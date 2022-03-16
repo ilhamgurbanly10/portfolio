@@ -445,7 +445,7 @@ body.flash-is-not-loaded * {
 .about-text,
 .about-title {
 	color: white;
-	font-weight: lighter;
+	font-weight: normal;
 	transition: all 1s ease;
 	cursor: pointer;
 }
@@ -642,7 +642,7 @@ body.flash-is-not-loaded * {
 }
 .education-title {
 	color: white;
-	font-weight: lighter;
+	font-weight: normal;
 }
 .por-education-text {
 	color: grey;
@@ -701,16 +701,16 @@ body.flash-is-not-loaded * {
 }
 #my-gallery .flash-gallery-title {
 	color: white;
-	font-weight: lighter;
+	font-weight: normal;
 	font-size: 1.5rem !important;
 }
 #my-gallery .flash-gallery-title span {
-	font-weight: lighter;
+	font-weight: normal;
 	color: #3deaa4;
 }
 #my-gallery .flash-gallery-images-number {
 	color: white;
-	font-weight: lighter;
+	font-weight: normal;
 }
 #my-gallery .flash-gallery-list-numbers {
 	background-color: #3deaa4; 
@@ -873,7 +873,7 @@ body.flash-is-not-loaded * {
 	width: 90%;
 	margin: 130px auto 1rem;
 	color: #3deaa4;
-	font-weight: lighter;
+	font-weight: normal;
 	-webkit-transform: scale(0);
 	transform: scale(0);
 	transition: transform 0.5s ease, -webkit-transform 0.5s ease;
