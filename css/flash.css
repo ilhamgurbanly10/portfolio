@@ -1808,7 +1808,6 @@ body.flash-is-not-loaded * {
 .flash-gallery-modal-image-container-container {
 	width: 80%;
 	height: 80%;
-	position: relative;
 	white-space: nowrap;
 	overflow: hidden;
 	font-size: 0 !important;
@@ -1825,10 +1824,11 @@ body.flash-is-not-loaded * {
 	padding: 0 2.5% !important;
 }
 .flash-gallery-modal-image {
-	width: 100%;
-	height: auto;
-	min-height: 100%;
-	margin: 0;
+	display: block;
+	width: auto;
+	max-width: 100%;
+	height: 100%;
+	margin: 0 auto;
 	padding: 0;
 }
 .flash-gallery-modal-number {
@@ -2311,11 +2311,17 @@ body.flash-is-not-loaded * {
 		padding-right: 30px;
 	}
 
-	@media only screen and (min-height: 500px) {
+	@media only screen and (min-height: 600px) {
 
 		.flash-gallery-modal-image-container-container {
+			max-height: 100%;
 			height: auto !important;
 			position: static;
+		}
+		.flash-gallery-modal-image {
+			width: 100%;
+			height: auto;
+			max-height: 100%;
 		}
 
 	}
@@ -2365,6 +2371,31 @@ body.flash-is-not-loaded * {
 	.flash-gallery-list-numbers {
 		font-size: 2vw;
 		right: 60px;
+	}
+
+	@media only screen and (max-height: 599px) {
+
+		.flash-gallery-controlbar {
+			top: 1vw;
+			left: 1vw;
+		}
+		.flash-gallery-controlbar-button {
+			font-size: 1.5vw;
+		}
+		.flash-gallery-modal-number {
+			top: 1vw;
+		}
+		.flash-gallery-modal-close-button {
+			top: 1vw;
+			right: 1vw;
+			font-size: 3.5vw;
+		}
+		.flash-gallery-full-screen-button {
+			bottom: 1vw;
+			right: 1vw;
+			font-size: 1vw;
+		}	
+
 	}
 
 }
