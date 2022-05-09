@@ -503,29 +503,45 @@ body.flash-is-not-loaded * {
 	align-items: center;
 	transition: right 0s ease;
 }
+
 .lan-skills-con-is-scrolled .skills-con-skill-line-1 {
-	width: calc(60% + 1px);
+	width: calc(97% + 1px);
 	transition-duration: 2s !important;
 }
 .lan-skills-con-is-scrolled .skills-con-skill-procent-1 {
-	right: 40% !important;
+	right: 3% !important;
 	transition-duration: 2s !important;
-}	
+}
 .lan-skills-con-is-scrolled .skills-con-skill-line-2 {
-	width: calc(90% + 1px);
+	width: calc(60% + 1px);
 	transition-duration: 2s !important;
 }
 .lan-skills-con-is-scrolled .skills-con-skill-procent-2 {
-	right: 10% !important;
+	right: 40% !important;
 	transition-duration: 2s !important;
-}
+}	
 .lan-skills-con-is-scrolled .skills-con-skill-line-3 {
-	width: calc(80% + 1px);
+	width: calc(90% + 1px);
 	transition-duration: 2s !important;
 }
 .lan-skills-con-is-scrolled .skills-con-skill-procent-3 {
+	right: 10% !important;
+	transition-duration: 2s !important;
+}
+.lan-skills-con-is-scrolled .skills-con-skill-line-4 {
+	width: calc(80% + 1px);
+	transition-duration: 2s !important;
+}
+.lan-skills-con-is-scrolled .skills-con-skill-procent-4 {
 	right: 20% !important;
 	transition-duration: 2s !important;
+}
+.lan-skills-con-is-scrolled .skills-con-skill-line-5 {
+	width: calc(90% + 1px);
+	transition-duration: 2s !important;
+}
+.lan-skills-con-is-scrolled .skills-con-skill-procent-5 {
+	right: 10% !important;
 }
 
 .cod-skills-con-is-scrolled .skills-con-skill-line-1 {
@@ -537,11 +553,11 @@ body.flash-is-not-loaded * {
 	transition-duration: 2s !important;
 }	
 .cod-skills-con-is-scrolled .skills-con-skill-line-2 {
-	width: calc(60% + 1px);
+	width: calc(75% + 1px);
 	transition-duration: 2s !important;
 }
 .cod-skills-con-is-scrolled .skills-con-skill-procent-2 {
-	right: 40% !important;
+	right: 25% !important;
 	transition-duration: 2s !important;
 }
 .cod-skills-con-is-scrolled .skills-con-skill-line-3 {
@@ -585,11 +601,11 @@ body.flash-is-not-loaded * {
 	transition-duration: 2s !important;
 }
 .cod-skills-con-is-scrolled .skills-con-skill-line-8 {
-	width: calc(40% + 1px);
+	width: calc(55% + 1px);
 	transition-duration: 2s !important;
 }
 .cod-skills-con-is-scrolled .skills-con-skill-procent-8 {
-	right: 60% !important;
+	right: 45% !important;
 	transition-duration: 2s !important;
 }
 .cod-skills-con-is-scrolled .skills-con-skill-line-9 {
@@ -598,6 +614,14 @@ body.flash-is-not-loaded * {
 }
 .cod-skills-con-is-scrolled .skills-con-skill-procent-9 {
 	right: 20% !important;
+	transition-duration: 2s !important;
+}
+.cod-skills-con-is-scrolled .skills-con-skill-line-10 {
+	width: calc(50% + 1px);
+	transition-duration: 2s !important;
+}
+.cod-skills-con-is-scrolled .skills-con-skill-procent-10 {
+	right: 50% !important;
 	transition-duration: 2s !important;
 }
 
@@ -699,20 +723,22 @@ body.flash-is-not-loaded * {
 #my-gallery {
 	margin-top: 130px !important;
 }
-#my-gallery .flash-gallery-title {
+#my-gallery .fl-gallery-title {
 	color: white;
 	font-weight: normal;
+	width: 100% !important;
 	font-size: 1.5rem !important;
+	text-align: center !important;
 }
-#my-gallery .flash-gallery-title span {
+#my-gallery .fl-gallery-title span {
 	font-weight: normal;
 	color: #3deaa4;
 }
-#my-gallery .flash-gallery-images-number {
+#my-gallery .fl-gallery-images-length-con {
 	color: white;
 	font-weight: normal;
 }
-#my-gallery .flash-gallery-list-numbers {
+#my-gallery .fl-gallery-list-indexes{
 	background-color: #3deaa4; 
 	color: #000000;
 }
@@ -720,8 +746,16 @@ body.flash-is-not-loaded * {
 @media only screen and (max-width: 1024px) {
 
 	#my-gallery {
-		width: 90%;
+		width: 90% !important;
 		margin: auto;
+	}
+
+}
+
+@media (min-width: 992px) {
+
+	.fl-gallery-item {
+		height: 12vw !important;
 	}
 
 }
@@ -855,7 +889,7 @@ body.flash-is-not-loaded * {
 	z-index: 5;
 }
 .portfolio-container {
-	width: 90%;
+	width: 90% !important;
 	margin: 130px auto 1rem;
 	border-bottom: 1px solid grey;
 	padding-bottom: 100px;
