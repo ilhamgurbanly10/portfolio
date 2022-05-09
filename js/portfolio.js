@@ -21,12 +21,12 @@ sm_navbar_list();
 flash_toggle_class_scrolling();
 active_scrolling();
 
-flash_gallery(my_gallery, {
-	autoplay: true,
-	time: "normal",
-	columns: 3,
-	circles: true,
-	list_number: true
+flashGallery('#my-gallery', {
+	autoplay: false,
+	speed: "fast",
+	dots: true,
+	infinite: false,
+	lengthPerList: 9
 });
 // the-end-of-using-functions
 
