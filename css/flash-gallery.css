@@ -511,7 +511,7 @@
 }
 
 .fl-gallery-dots-con {
-	z-index: 5;
+	z-index: 1;
 	width: 80%;
 	margin: 4vw auto 0 !important;
 	font-size: 0;
