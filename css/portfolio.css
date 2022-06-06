@@ -916,6 +916,7 @@ body.flash-is-not-loaded * {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
+
 @media only screen and (max-width: 1024px) {
 
 	.sm-divider { 
@@ -926,3 +927,37 @@ body.flash-is-not-loaded * {
 }
 
 /* the-end-of-classes */
+
+
+
+/* go-to-my-works-list */
+
+.go-to-my-works-list {
+	list-style-type: none;
+	padding: 0;
+	margin: 50px 0 0;
+	width: 100%;
+}
+
+.go-to-my-works-title {
+	font-weight: bold;
+	color: #3deaa4 !important;
+	font-size: 20px;
+}
+
+.go-to-my-works-item {
+	color: white;
+	font-size: 16px;
+	margin-top: 1rem;
+}
+
+.go-to-my-works-link {
+	color: white;
+	transition: opacity .3s;
+}
+
+.go-to-my-works-link:hover {
+	opacity: .6;
+}
+
+/* the-end-of-go-to-my-works-list */
