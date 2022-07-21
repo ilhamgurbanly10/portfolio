@@ -1,0 +1,151 @@
+
+/* skills */
+
+/*-languages-*/
+.skills-container.fl-is-scrolled .skills-languages .skills-item:nth-child(2) .line::before {
+	width: calc(90% + 2px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-languages .skills-item:nth-child(2) .line::after {
+	content: "90%";
+	left: calc(90% - 43px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-languages .skills-item:nth-child(3) .line::before {
+	width: calc(60% + 2px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-languages .skills-item:nth-child(3) .line::after {
+	content: "60%";
+	left: calc(60% - 43px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-languages .skills-item:nth-child(4) .line::before {
+	width: calc(90% + 2px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-languages .skills-item:nth-child(4) .line::after {
+	content: "90%";
+	left: calc(90% - 43px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-languages .skills-item:nth-child(5) .line::before {
+	width: calc(80% + 2px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-languages .skills-item:nth-child(5) .line::after {
+	content: "80%";
+	left: calc(80% - 43px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-languages .skills-item:nth-child(6) .line::before {
+	width: calc(90% + 2px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-languages .skills-item:nth-child(6) .line::after {
+	content: "90%";
+	left: calc(90% - 43px) !important;
+}
+
+/*-coding-*/
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(2) .line::before {
+	width: calc(90% + 2px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(2) .line::after {
+	content: "90%";
+	left: calc(90% - 43px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(3) .line::before {
+	width: calc(85% + 2px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(3) .line::after {
+	content: "85%";
+	left: calc(85% - 43px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(4) .line::before {
+	width: calc(40% + 2px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(4) .line::after {
+	content: "40%";
+	left: calc(40% - 43px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(5) .line::before {
+	width: calc(40% + 2px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(5) .line::after {
+	content: "40%";
+	left: calc(40% - 43px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(6) .line::before {
+	width: calc(80% + 2px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(6) .line::after {
+	content: "80%";
+	left: calc(80% - 43px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(7) .line::before {
+	width: calc(70% + 2px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(7) .line::after {
+	content: "70%";
+	left: calc(70% - 43px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(8) .line::before {
+	width: calc(80% + 2px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(8) .line::after {
+	content: "80%";
+	left: calc(80% - 43px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(9) .line::before {
+	width: calc(70% + 2px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(9) .line::after {
+	content: "70%";
+	left: calc(70% - 43px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(10) .line::before {
+	width: calc(60% + 2px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(10) .line::after {
+	content: "60%";
+	left: calc(60% - 43px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(11) .line::before {
+	width: calc(80% + 2px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(11) .line::after {
+	content: "80%";
+	left: calc(80% - 43px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(12) .line::before {
+	width: calc(50% + 2px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(12) .line::after {
+	content: "50%";
+	left: calc(50% - 43px) !important;
+}
+
+
+/* the-end-of-skills */

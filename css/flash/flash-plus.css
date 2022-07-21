@@ -1,0 +1,175 @@
+
+/* flash-scroll-indicator */
+
+.fl-scroll-indicator {
+	position: absolute;
+	top: 0 !important;
+	z-index: 10;
+	right: 0;
+	width: 2px !important;
+	height: 0;
+	background-color: var(--green);
+	transition: height;
+	margin: 0 !important;
+}
+
+/* the-end-of-flash-scroll-indicator */
+
+
+
+/* flash-lightbox */
+
+/*-modal-*/
+.fl-lightbox-modal {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, .8);
+	z-index: 30;
+	display: none;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.fl-lightbox-modal.fl-show {
+	display: flex;
+}
+
+/*-slide-*/
+.fl-lightbox-slide {
+	height: auto;
+	width: 90%;
+	overflow: hidden;
+	max-height: 80%;
+	display: none;
+	position: relative;
+}
+
+.fl-lightbox-slide.fl-show {
+	display: inline-block;
+}
+
+.fl-lightbox-slide .fl-lightbox-img {
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+	display: block;
+}
+
+.fl-lightbox-number {
+	position: absolute;
+	top: 1vw;
+	left: 1vw;
+	color: white;
+	font-size: 12px;
+	line-height: 12px;
+	background-color: rgba(0, 0, 0, .8);
+	padding: 5px;
+}
+
+/*-arrows-*/
+.fl-lightbox-arrow {
+	position: absolute;
+	top: calc(50% - 10px);
+	left: 6%;
+	font-size: 20px;
+	line-height: 20px;
+	color: white;
+	transition: opacity .3s;
+	opacity: 1;
+	background: none;
+	cursor: pointer;
+	z-index: 2;
+	padding: 0;
+}
+
+@media (hover: hover) {
+
+	.fl-lightbox-arrow:hover {
+		opacity: .7;
+	}
+
+}
+
+.fl-lightbox-arrow:active {
+	opacity: .7;
+}
+
+.fl-lightbox-next {
+	left: initial;
+	right: 6%;
+}	
+
+/*-buttons-*/
+.fl-lightbox-btn {
+	cursor: pointer;
+}
+
+.fl-lightbox-close {
+	position: absolute;
+	top: calc(.5rem + .5vw);
+	right: calc(.5rem + .5vw);
+}
+
+.fl-lightbox-modal-btn {
+	color: white;
+	font-size: 25px;
+	line-height: 25px;
+	background: none;
+	transition: opacity .3s;
+	cursor: pointer;
+	padding: 0;
+}
+
+.fl-lightbox-modal-btn:hover {
+	opacity: .7;
+}
+
+.fl-lightbox-modal-btn:disabled {
+	opacity: .3 !important;
+	cursor: default !important;
+}
+
+/*-button-list-*/
+.fl-lightbox-btn-list {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
+	position: absolute;
+	top: calc(.5rem + .5vw);
+	left: calc(.5rem + .5vw);
+}
+
+.fl-lightbox-btn-list > *:not(:last-child) {
+	margin-right: 1rem;
+}
+
+@media (min-width: 992px) {
+
+	.fl-lightbox-slide {
+		max-width: 80%;
+		width: auto;
+		height: 80%;
+	}
+
+	.fl-lightbox-arrow {
+		top: calc(50% - 15px);
+		left: 1.5rem;
+		font-size: 30px;
+		line-height: 30px;
+	}
+
+	.fl-lightbox-next {
+		left: initial;
+		right: 1.5rem;
+	}
+
+}
+
+/* the-end-of-flash-lightbox */

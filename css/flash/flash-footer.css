@@ -1,0 +1,89 @@
+/* fl-footer */
+
+.fl-footer {
+	padding: 0 1rem 2rem;
+	background-color: #284452;
+	margin-top: 2rem;
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;	
+	align-content: flex-start;
+	align-items: flex-start;	
+	position: relative;
+}
+
+.fl-footer-divider {
+	width: 100% !important;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;	
+	align-content: flex-start;
+	align-items: flex-start;
+	background-color: black;
+}
+
+.fl-footer-container {
+	width: 100%;
+}	
+
+.fl-footer-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
+	margin-top: 2rem;
+	width: 100%;
+}
+
+.fl-footer-title {
+	color: white;
+	font-weight: bold;
+	margin-bottom: 1rem;
+	font-size: 18px;
+}
+
+.fl-footer-item:not(:first-child) { 
+	margin-top: 1rem;
+}
+
+.fl-footer-inline-list .fl-footer-item:not(:last-child) {
+	flex-flow: row wrap;
+}
+
+.fl-footer-inline-list .fl-footer-item:not(:last-child) {
+	margin-right: 1rem;
+}
+
+.fl-footer-link {
+	color: white;
+	transition: color .3s, opacity .3s;
+	font-size: 14px;
+}
+
+@media (hover: hover) {
+
+	.fl-footer-link:hover {
+		opacity: .7;
+	}
+
+}
+
+.fl-footer-link:active {
+	opacity: .7;
+}
+
+@media only screen and (min-width: 992px) {
+		
+	.fl-footer-container {
+		width: auto;
+	}
+
+	.fl-footer-list {
+		width: 30%;
+	}	
+
+}	
+
+/* the-end-of-fl-footer */

@@ -1,17 +1,27 @@
 
-// modal-container
+// calling-functions
 
-hideModalCOntainer();
+flashScrollIndicator();
 
-function hideModalCOntainer() {
+flashActiveScrolling();
 
-	const modal = document.querySelector('#userModalContainer');
-	const btn = document.querySelector('.user-modal-con-close-btn');
+flashLightbox();
 
-	function hide() { modal.classList.remove('fl-show'); }
+// the-end-of-calling-functions
 
-	btn.addEventListener('click', hide);
+
+// scroll-animation
+
+const pageScrollAnimation = () => {
+
+	const elements = document.querySelectorAll('.page-scroll-animation');
+	for (let i = 0; i < elements.length; i++) { flashIsScrolled(elements[i]); }
 
 }
 
-// the-end-of-modal-container
+pageScrollAnimation();
+
+// the-end-of-scroll-animation
+
+
+
