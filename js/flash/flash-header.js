@@ -48,7 +48,22 @@ function flashNavbar() {
 	// calling-functions
 	flashMdMenu(navbar);
 	flashNavbarSearch();
+	flashHideMdMenu();
 
+}
+
+function flashHideMdMenu() {
+
+	const menu = document.querySelector('.fl-md-menu');
+	const buttons = document.querySelectorAll('.fl-md-menu-link');
+	const toggler = document.querySelector('.fl-navbar-toggler');
+
+	const hide = () => {
+		menu.classList.remove('fl-show');
+		toggler.classList.remove('fl-active');
+	} 
+
+	buttons.forEach(btn => btn.addEventListener('click', hide));
 }
 
 function flashMdMenu(navbar, closeRest = true) {
