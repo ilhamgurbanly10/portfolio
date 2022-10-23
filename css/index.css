@@ -139,19 +139,46 @@
 }
 
 .skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(12) .line::before {
-	width: calc(90% + 2px) !important;
+	width: calc(85% + 2px) !important;
 }
 
 .skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(12) .line::after {
+	content: "85%";
+	left: calc(85% - 43px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(13) .line::before {
+	width: calc(75% + 2px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(13) .line::after {
+	content: "75%";
+	left: calc(75% - 43px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(14) .line::before {
+	width: calc(70% + 2px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(14) .line::after {
+	content: "70%";
+	left: calc(70% - 43px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(15) .line::before {
+	width: calc(90% + 2px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(15) .line::after {
 	content: "90%";
 	left: calc(90% - 43px) !important;
 }
 
-.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(13) .line::before {
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(16) .line::before {
 	width: calc(85% + 2px) !important;
 }
 
-.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(13) .line::after {
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(16) .line::after {
 	content: "85%";
 	left: calc(85% - 43px) !important;
 }
