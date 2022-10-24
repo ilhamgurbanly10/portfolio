@@ -183,5 +183,20 @@
 	left: calc(85% - 43px) !important;
 }
 
+.skills-footer-list {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: start;
+	align-items: center;
+	margin-top: 3rem !important;
+}
+
+.skills-footer-item {
+	padding: .5rem 1rem;
+	color: black;
+	background-color: var(--green);
+	margin-right: 1rem;
+	margin-top: 1.5rem;
+}
 
 /* the-end-of-skills */
