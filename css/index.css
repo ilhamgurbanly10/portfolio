@@ -148,12 +148,12 @@
 }
 
 .skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(13) .line::before {
-	width: calc(75% + 2px) !important;
+	width: calc(90% + 2px) !important;
 }
 
 .skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(13) .line::after {
-	content: "75%";
-	left: calc(75% - 43px) !important;
+	content: "90%";
+	left: calc(90% - 43px) !important;
 }
 
 .skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(14) .line::before {
