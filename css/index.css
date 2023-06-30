@@ -183,6 +183,15 @@
 	left: calc(85% - 43px) !important;
 }
 
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(17) .line::before {
+	width: calc(90% + 2px) !important;
+}
+
+.skills-container.fl-is-scrolled .skills-coding .skills-item:nth-child(17) .line::after {
+	content: "90%";
+	left: calc(90% - 43px) !important;
+}
+
 .skills-footer-list {
 	display: flex;
 	flex-flow: row wrap;
