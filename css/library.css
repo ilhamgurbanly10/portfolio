@@ -686,3 +686,8 @@
 
 
 /* the-end-of-links */
+
+.visit-projects-list a {
+	white-space: normal !important;
+	line-height: 30px;
+}
